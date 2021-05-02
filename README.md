@@ -1,2 +1,1 @@
-# Anna.Pertzovski
-Anna Pertzovski
+# CV
