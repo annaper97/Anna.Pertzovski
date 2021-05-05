@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="cv.css">
+  <script src="cv.js ">  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> cv - Anna Pertzovski </title>
+
+</head>
+<body onload="WelcomeText()">
+ <div id="myWelcome"> </div>
+<div class="name" style="font-size: 5vw"> Anna Pertzovski </div>
+<div class="goTo" style="font-size: 2vw"> <h1> Go To: </h1>
+     <a href="cv.html#about"  >About Me </a> &nbsp;
+    <a href="cv.html#education">Education</a> &nbsp;
+    <a href="cv.html#workExperience">Work Experience </a>&nbsp;
+    <a href="cv.html#military">Military Service </a>&nbsp;
+     <a href="#list" id="mylist" onclick="goTolist()" >My People list</a>
+</div>
+<div class="contactDitails"> <h1> Contact Me: </h1>
+  <img src="myPicture.jpeg" alt="my picture" style="width: 50%">
+    <h3><button onclick="Buttonsanna()">  To My linkedin:</button> </h3>
+    <a  id="Anna_Pertzovski" href="https://www.linkedin.com/in/anna-pertzovski/"> </a>
+     <h3> <button onclick="Buttonsphone()"> To My Phone Number:</button> </h3>
+    <a  id="phone" href="tel:+0547252304">  </a>
+    <h3> <button onclick="Buttonsemail()"> To My Email:</button> </h3>
+    <a  id="myemail" href="mailto: pertzovski.anna@gmail.com" > </a>
+
+</div>
+<div id="list">
+    <div id="response"> <button style="font-size: x-large" onclick="goTolist()">  click here to see the list</button> </div>
+</div>
+</body>
+</html>
